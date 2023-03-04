@@ -4,6 +4,7 @@ let red1,green1,blue1;
 function setup() {
   createCanvas(1280,720);
   background(0);
+   fill(255);
   textSize(75);
   text("PERMUTATION-12", 220,80);
   textSize(17);
