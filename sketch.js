@@ -2,7 +2,7 @@ let input1,input2,input3,button;
 let red1,green1,blue1;
 
 function setup() {
- createCanvas(1136, 660);
+ createCanvas(1100, 660);
   background(0);
   input = createInput();
   input.position(20,25);
