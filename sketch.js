@@ -2,30 +2,15 @@ let input1,input2,input3,button;
 let red1,green1,blue1;
 
 function setup() {
-  createCanvas(936, 660);
+  createCanvas(fullScreen);
   background(0);
-  input = createInput();
-  input.position(20,25);
-  input2 = createInput();
-  input2.position(20,65);
-  input3 = createInput();
-  input3.position(20,105);
-    fill(255);
-  text("DAY",21,23);
-   text("MONTH",21,63);
-   text("YEAR",21,103);
-  fill(50);
-  fill(255);
-  textSize(15);
-   text("press  'ENTER'",78,148);
   textSize(75);
   text("PERMUTATION-12", 220,80);
   textSize(17);
   text("PERMUTATION-12 is a program that allows you to generate your own personal and",226, 120); 
-       text(" living work of art. Put a creation date (for example, your birthday) and let it act.",222, 140);
+       text(" living work of art. Press 'ENTER' and let it act.",222, 140);
   textSize(20);
   text("(by moving the cursor from left to right you can speed up or slow down your work)",100,550);
-  text("(also works via touch feedback on smartphones and tablets)",190,580);
 monoSynth = new p5.MonoSynth();
  
   
