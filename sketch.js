@@ -8,8 +8,6 @@ function setup() {
   input.position(20,25);
   input2 = createInput();
   input2.position(20,65);
-  input3 = createInput();
-  input3.position(20,105);
     fill(255);
   text("DÍA",21,23);
    text("MES",21,63);
