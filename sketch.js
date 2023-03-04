@@ -1,13 +1,8 @@
-let input1,input2,input3,button;
 let red1,green1,blue1;
 
 function setup() {
  createCanvas(1100, 660);
   background(0);
-  input = createInput();
-  input.position(20,25);
-  input2 = createInput();
-  input2.position(20,65);
     fill(255);
   text("DÍA",21,23);
    text("MES",21,63);
