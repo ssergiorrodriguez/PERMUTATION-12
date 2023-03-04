@@ -1,7 +1,7 @@
 let red1,green1,blue1;
 
 function setup() {
- createCanvas(1100, 660);
+ createCanvas(1820, 720);
   background(0);
   fill(255);
   textSize(75);
