@@ -3,22 +3,13 @@ let red1,green1,blue1;
 function setup() {
  createCanvas(1100, 660);
   background(0);
-    fill(255);
-  text("DÍA",21,23);
-   text("MES",21,63);
-   text("AÑO",21,103);
-  fill(50);
   fill(255);
-  textSize(15);
-   text("pulse  'ENTER'",78,148);
   textSize(75);
-  text("PERMUTACION-12", 220,80);
+  text("PERMUTACION-12", 10,80);
   textSize(17);
-  text("PERMUTACION-12 es un programa que le permite generar su propia obra de arte viva ",226, 120); 
-       text("y personal. Ponga una fecha de creación (por ejemplo, su cumpleaños) y déjela actuar.",227, 140);
-  textSize(20);
-  text("(moviendo el cursor de izquierda a derecha podrá acelerar o relentizar su obra)",110,550);
-  text("(También funciona mediante respuesta táctil en smartphones y tablets)",140,580);
+  text("PERMUTACION-12 es un programa que le permite generar su propia obra de arte viva ",10, 120); 
+       text("y personal. Presiona 'ENTER' y déjela actuar.",10, 140);
+
 monoSynth = new p5.MonoSynth();
  
   
