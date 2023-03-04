@@ -2,7 +2,7 @@ let input1,input2,input3,button;
 let red1,green1,blue1;
 
 function setup() {
-  createCanvas(fullScreen);
+  createCanvas(Fullscreen);
   background(0);
   textSize(75);
   text("PERMUTATION-12", 220,80);
