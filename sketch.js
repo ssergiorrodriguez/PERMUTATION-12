@@ -2,9 +2,16 @@ let input1,input2,input3,button;
 let red1,green1,blue1;
 
 function setup() {
-  createCanvas(1280,720);
+  createCanvas(1100,660);
   background(0);
-   fill(255);
+    fill(255);
+  text("DÍA",21,23);
+   text("MES",21,63);
+   text("AÑO",21,103);
+  fill(50);
+  fill(255);
+  textSize(15);
+   text("pulse  'ENTER'",78,148);
   textSize(75);
   text("PERMUTATION-12", 220,80);
   textSize(17);
